@@ -1,0 +1,17 @@
+.file{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.folder {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    background: lightgray;
+    margin: 5px;
+    border-radius: 3px;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}

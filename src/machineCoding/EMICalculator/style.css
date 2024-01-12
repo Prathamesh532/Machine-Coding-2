@@ -1,0 +1,93 @@
+.container {
+    /* max-width: 400px; */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.input__container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Add more styling as needed */
+
+/* tenure */
+
+.tenure__{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tenureContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 500px;
+}
+
+.tenure-title{
+    font-size: 18px;
+    margin: 10px 0; /* Adjust the margin to position it */
+    font-weight: bold;
+    color: #333;
+    align-self: flex-start;
+}
+
+.tenure{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+}
+
+.tenureSelected{
+    background-color: aqua;
+    color: antiquewhite;
+}
